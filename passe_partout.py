@@ -21,6 +21,6 @@ if __name__ == "__main__":
     clef = open("ma_cle.key", "rb").read()
     
     #On déchiffre notre fichier secret
-    dechiffrer_fichier("code_secret.txt", clef)
+    dechiffrer_fichier("votre_fichier.txt", clef)
     
     pass
