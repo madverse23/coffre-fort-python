@@ -38,5 +38,5 @@ if __name__ == "__main__":
     cle_actuelle = charger_cle()
     
     
-    chiffrer_fichier("code_secret.txt", cle_actuelle)
+    chiffrer_fichier("votre_fichier.txt", cle_actuelle)
     pass
